@@ -1,0 +1,5 @@
+coverage/**
+bower_components/**
+node_modules/**
+dist/**
+*.spec.js

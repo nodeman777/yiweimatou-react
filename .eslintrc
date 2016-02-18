@@ -1,0 +1,37 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "parser"  : "babel-eslint",
+    "extends": [
+        "eslint:recommended"
+//        "standard-react"
+//        "airbnb"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "globals" : {
+        "Action"       : false,
+        "__DEV__"      : false,
+        "__PROD__"     : false,
+        "__DEBUG__"    : false,
+        "__DEBUG_NEW_WINDOW__" : false,
+        "__BASENAME__" : false
+    },
+    "rules": {
+        "semi": [
+            0,
+            "always"
+        ]
+    }
+}

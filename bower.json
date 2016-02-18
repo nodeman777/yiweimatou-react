@@ -1,0 +1,25 @@
+{
+  "name": "yiweimatou-react",
+  "description": "redux react yiweimatou",
+  "authors": [
+    "zhangruofan"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "redux",
+    "react",
+    "yiweimatou"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^0.14.7"
+  }
+}
